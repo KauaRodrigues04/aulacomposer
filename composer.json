@@ -1,0 +1,29 @@
+{
+	"name": "kauarodrigues04/aulacomposer",
+	"description": "Conhecendo o composer",
+	"minimum-stability": "stable",
+	"License": "MIT",
+	"authors": [
+		{
+			"name": "Kauã Rodrigues",
+			"email": "kauarodriguesnunes@gmail.com",
+			"role": "Desenvolvedor",
+			"homepage": "https://github.com/KauaRodrigues04"
+		}
+	],
+    "config": {
+        "vendor-dir": "vendor"
+    },
+    "autoload": {
+        "psr-4": {
+            "Source\\": "lib/"
+        },
+        "files": [
+            "lib/config.php"
+        ]
+    },
+    "require": {
+        "php": ">=7.0.0",
+        "phpmailer/phpmailer": "^6.5"
+    }
+}
